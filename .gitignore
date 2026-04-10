@@ -1,0 +1,23 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore data files (Don't upload massive CSVs to GitHub!)
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Ignore Database backups or local DBs
+*.sql.gz
+*.sqlite
+*.db
+
+# Ignore environment variables (Keep your passwords/API keys safe!)
+.env
+credentials.json
